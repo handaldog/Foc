@@ -2,6 +2,7 @@ package com.foc.focusonchild.damain;
 
 
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Data
+
 public class JobCareer {
 
     @Id @GeneratedValue

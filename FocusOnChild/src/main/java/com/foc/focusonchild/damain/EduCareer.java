@@ -1,6 +1,7 @@
 package com.foc.focusonchild.damain;
 
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,6 +11,7 @@ import javax.validation.constraints.NotNull;
 
 @Entity
 @Data
+
 public class EduCareer {
 
     @Id @GeneratedValue
