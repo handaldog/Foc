@@ -3,10 +3,7 @@ package com.foc.focusonchild.damain;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Entity
@@ -15,10 +12,11 @@ import javax.validation.constraints.NotNull;
 public class EduCareer {
 
     @Id @GeneratedValue
-    @Column(name = "edu_career_no")
-    private int no;
+
+    private int edu_career_no;
 
     // 사용자 no 매핑하기
+
 
     // 대학교(원)
     @NotNull

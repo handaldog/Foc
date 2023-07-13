@@ -13,12 +13,10 @@ import java.time.LocalDateTime;
 
 @Entity
 @Data
-
 public class JobCareer {
 
     @Id @GeneratedValue
-    @Column(name = "job_career_no")
-    private int no;
+    private int job_career_no;
 
     // 사용자 no 매핑하기
 
